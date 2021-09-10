@@ -16,5 +16,5 @@ RUN poetry install --no-dev
 # RUN pip install virtualenv  # Adding this makes the error go away
 
 # Error `ModuleNotFoundError: No module named 'platformdirs'` happens here:
-RUN poetry install
+RUN poetry install -vvv
 
